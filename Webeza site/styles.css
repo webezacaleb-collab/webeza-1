@@ -128,7 +128,7 @@ body {
     font-size: 1.8rem;
 }
 
-#webRedesign, #webMake, webManage {
+#webRedesign, #webMake, #webManage {
     background-color: white;
     padding: 2rem;
     border-radius: 10px;
@@ -373,4 +373,5 @@ body {
 body.loaded {
     opacity: 1;
 }
+
 
