@@ -128,7 +128,8 @@ body {
     font-size: 1.8rem;
 }
 
-#webRedesign, #webMake, #webManage {
+/* Service card shared styles */
+.service-card {
     background-color: white;
     padding: 2rem;
     border-radius: 10px;
@@ -139,7 +140,7 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#webRedesign:hover, #webMake:hover, #webManage {
+.service-card:hover{
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
@@ -373,5 +374,3 @@ body {
 body.loaded {
     opacity: 1;
 }
-
-
